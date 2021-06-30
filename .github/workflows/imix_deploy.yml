@@ -1,0 +1,26 @@
+name: imix_deploy
+
+on: push
+
+jobs:
+  build-n-publish:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+      - name: Install torch and torchvison (CUDA10.1)
+        run: pip install torch==1.6.0+cu101 torchvision==0.7.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+      - name: Install wheel
+        run: pip install wheel
+      #- name: build iMIX
+      #  run: python setup.py sdist bdist_wheel
+      #- name: Publish distribution to PyPI
+      #  run: |
+      #    pip install twine
+      #    twine upload dist/* -u __token__ -p ${{ secrets.pypi_password }}
+
+    
+
