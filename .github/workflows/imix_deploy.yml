@@ -21,6 +21,3 @@ jobs:
       #  run: |
       #    pip install twine
       #    twine upload dist/* -u __token__ -p ${{ secrets.pypi_password }}
-
-    
-
