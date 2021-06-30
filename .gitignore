@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # C extensions
-#*.so
+*.so
 
 # Distribution / packaging
 .Python
@@ -123,7 +123,10 @@ work_dirs/
 *.swp
 
 #sphinx
-#*.rst
+*.rst
+
+#yaml
+*.yml
 
 tools/refer/
 imix/models/vqa_models/oscar/coco_caption/
