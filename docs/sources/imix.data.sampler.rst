@@ -25,4 +25,3 @@ imix.data.sampler.uniter\_sampler module
    :members:
    :undoc-members:
    :show-inheritance:
-

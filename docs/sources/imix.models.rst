@@ -21,4 +21,3 @@ imix.models.builder module
    :members:
    :undoc-members:
    :show-inheritance:
-

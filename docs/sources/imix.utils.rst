@@ -134,4 +134,3 @@ imix.utils.registry module
    :members:
    :undoc-members:
    :show-inheritance:
-

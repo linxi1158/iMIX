@@ -25,4 +25,3 @@ imix.evaluation.metric module
    :members:
    :undoc-members:
    :show-inheritance:
-

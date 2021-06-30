@@ -30,4 +30,3 @@ imix.engine.organizer module
    :members:
    :undoc-members:
    :show-inheritance:
-
