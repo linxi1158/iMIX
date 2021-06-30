@@ -65,6 +65,7 @@ instance/
 
 # Sphinx documentation
 docs/_build/
+docs/
 
 # PyBuilder
 target/
@@ -127,6 +128,7 @@ work_dirs/
 
 #yaml
 *.yml
+*.md
 
 tools/refer/
 imix/models/vqa_models/oscar/coco_caption/
